@@ -1,0 +1,5 @@
+.env
+queue/
+*.lock
+__pycache__/
+config/channels.json

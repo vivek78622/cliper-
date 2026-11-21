@@ -1,0 +1,9 @@
+{
+  "name": "gta-auto-clipper-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test ../tests/site/*.test.mjs",
+    "preview": "wrangler pages dev ."
+  }
+}

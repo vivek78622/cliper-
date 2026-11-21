@@ -1,0 +1,32 @@
+{
+  "utc_offset": "+05:30",
+  "feeder": {
+    "clipper_output": "C:/path/to/GTA-Auto-Clipper/output",
+    "feed_since": "2026-01-01T00:00",
+    "lookahead_hours": 2,
+    "min_score": 0,
+    "credit_label": "Gameplay",
+    "site_line": "Clipped with the free GTA Auto Clipper: https://github.com/AnIntellectualBeing/GTA-Auto-Clipper",
+    "titles": ["This GTA 6 moment is wild", "Nobody expected this", "Chat went crazy at this one", "GTA 6 physics are unreal"],
+    "hashtags": ["#gta6", "#gta", "#gaming", "#shorts"]
+  },
+  "channels": {
+    "channel1": {
+      "key_env": "ZERNIO_KEY_MAIN",
+      "youtube_account_id": "PASTE_ZERNIO_YOUTUBE_ACCOUNT_ID",
+      "instagram_account_id": "PASTE_ZERNIO_INSTAGRAM_ACCOUNT_ID",
+      "youtube_per_hour": 3,
+      "instagram_per_hour": 1,
+      "youtube_per_day": 10,
+      "instagram_per_day": 45,
+      "youtube_category": "20"
+    },
+    "channel2": {
+      "key_env": "ZERNIO_KEY_MAIN",
+      "youtube_account_id": "PASTE_SECOND_YOUTUBE_ACCOUNT_ID",
+      "instagram_account_id": "PASTE_SECOND_INSTAGRAM_ACCOUNT_ID",
+      "youtube_per_hour": 3,
+      "instagram_per_hour": 1
+    }
+  }
+}

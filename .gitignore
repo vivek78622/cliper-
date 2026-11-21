@@ -1,0 +1,53 @@
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# Secrets and environment files
+.env
+*.env
+.dev.vars
+.dev.vars.*
+site/.dev.vars
+site/private/
+private/
+
+# Configuration with local private tokens
+config/channels.json
+
+# Python caches and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+.pytest_cache/
+.wrangler/
+node_modules/
+
+# Media, video and audio artifacts
+*.mp4
+*.ts
+*.m4a
+*.wav
+*.mp3
+sample_h264.mp4
+work/
+test_out/
+output/
+queue/
+*.log
+*.lock
+
+# Large ML models
+models/*.onnx
+models/person_yolox_s_2022nov.onnx
+
+# Backups and nested git repos
+.git_*
+*.bak
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,5 @@
+numpy
+faster-whisper
+yt-dlp
+requests
+opencv-python-headless>=4.10,<6
